@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--dimes for design 3-->
+    <dimen name="headerTextSize">22sp</dimen>
+    <dimen name="TextSize">16sp</dimen>
+    <dimen name="signup_text_margin_top">10dp</dimen>
+    <dimen name="CardRadius">20dp</dimen>
+    <dimen name="ViewsMargin">20dp</dimen>
+
+</resources>

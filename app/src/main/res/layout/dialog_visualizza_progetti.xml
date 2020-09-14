@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00a5ff">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical"
+            android:text="Visualizza progetti"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:textColor="@color/whiteCardColor"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/testo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:text="Lista progetti del concorso:"
+        android:visibility="visible"
+        android:textSize="12pt"
+        style="@style/headerTextPrimary"/>
+
+    <ListView
+        android:id="@+id/listaProgetti"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/testo1"
+        android:clickable="false"
+        android:scrollingCache="false"
+        android:smoothScrollbar="true"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chiudi"
+        android:layout_below="@+id/listaProgetti"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/button"/>
+
+
+</RelativeLayout>

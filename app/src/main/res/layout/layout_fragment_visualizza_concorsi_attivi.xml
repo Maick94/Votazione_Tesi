@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Card"
+    app:cardCornerRadius="@dimen/CardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/ViewsMargin"
+    android:layout_marginBottom="@dimen/ViewsMargin"
+    android:background="@color/whiteCardColor">
+
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/ViewsMargin">
+
+        <ListView
+            android:id="@+id/listaConcorsiAttivi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toolbar_top" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="BkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+
+    <color name="color0">#424549</color>
+    <color name="color1">#7e455e</color>
+    <color name="color2">#796e25</color>
+    <color name="color3">#59717c</color>
+
+
+
+    <color name="color4">#a29bfe</color>
+
+
+</resources>

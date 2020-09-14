@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Card"
+    app:cardCornerRadius="@dimen/CardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/ViewsMargin"
+    android:layout_marginBottom="@dimen/ViewsMargin"
+    android:background="@color/whiteCardColor">
+
+
+    <RelativeLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/ViewsMargin">
+
+        <ListView
+            android:id="@+id/listaTipologiaVoti"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/switch1"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/testo3"
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="Scegli la percentuale di voto"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/testoSeekBar"
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/testo3"
+            android:layout_centerHorizontal="true"
+            android:text="Giuria 1%        Pubblico 99%"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/testoSeekBar"
+            android:progress="1"
+            android:visibility="gone" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/seekBar"
+            android:stretchColumns="*"
+            android:visibility="gone">
+
+            <TableRow
+                android:id="@+id/statusRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <Button
+                    android:id="@+id/btn0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="10sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="20"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="40"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="50"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="6"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="60"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="7"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="70"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="8"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="80"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="9"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="90"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="10"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textSize="10sp"
+                    android:visibility="visible" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/testo1"
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Gestisci il voto dei giudici" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/testo1"
+            android:text="Nessuna tipologia scelta (i voti andranno da 1 a 5 per ogni progetto)" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/listaTipologiaVoti"
+            android:text="Il pubblico non può votare" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true"
+            android:text="Conferma" />
+
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Votazione</string>
+    <string name="title_activity_login_organizzatore">LoginOrganizzatore</string>
+    <string name="title_activity_home_organizzatore">HomeOrganizzatore</string>
+</resources>
